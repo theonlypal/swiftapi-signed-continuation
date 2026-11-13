@@ -1,0 +1,12 @@
+{
+  "schema": "swiftapi-prediction-seal/1",
+  "file": "AUTHOR_PREDICTIONS.md",
+  "bytes": 6529,
+  "author_predictions_sha256": "8c0cf6818a91524fbebc1c36be258be9e706a15e8a9ba168a8be978c7040ae26",
+  "predictions_sealed_at": "2026-11-13T11:48:41-08:00",
+  "timestamp_basis": "AUTHOR_FILE_MODIFICATION_TIME",
+  "external_timestamp": "2026-11-13T19:54:34.294643+00:00",
+  "doi": "10.5281/zenodo.24206618",
+  "public_file_sha256_verified": true,
+  "status": "AUTHOR_APPROVED_PUBLIC"
+}

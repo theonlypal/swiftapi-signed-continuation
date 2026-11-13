@@ -1,0 +1,9 @@
+# Test-only additions for SDK property tests; no runtime dependency.
+hypothesis==6.170.15
+sortedcontainers==2.4.0
+# Offline validation of the saved provider OpenAPI request shapes.
+jsonschema==4.26.0
+attrs==26.1.0
+jsonschema-specifications==2025.9.1
+referencing==0.37.0
+rpds-py==2026.9.1

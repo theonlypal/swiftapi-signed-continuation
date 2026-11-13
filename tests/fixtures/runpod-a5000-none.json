@@ -1,0 +1,1 @@
+{"availability":"NONE","community":true,"cudaVersions":[{"available":false,"version":"13.2"}],"id":"NVIDIA RTX A5000","manufacturer":"NVIDIA","maxCount":{"community":10,"secure":10},"memory":24,"name":"RTX A5000","pool":"AMPERE_24","price":{"community":0.16,"secure":0.27,"serverless":0.75},"secure":true}

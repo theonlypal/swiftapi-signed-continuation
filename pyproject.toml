@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swiftapi-native-service"
+version = "1.0.0"
+description = "Local SwiftAPI Authority to pinned PCCG-2 decoder integration"
+requires-python = ">=3.11"
+dependencies = ["swiftapi-python==1.4.0", "cryptography==46.0.3", "psutil==7.2.2", "PyNaCl==1.6.2"]
+
+[project.optional-dependencies]
+inference = ["torch==2.8.0", "transformers==4.56.2", "safetensors==0.6.2", "numpy==2.3.3", "tokenizers==0.22.2"]
+test = ["pytest==9.2.0"]
+
+[project.scripts]
+swiftapi-native = "swiftapi_native_service.cli:main"
+swiftapi-native-experiment = "swiftapi_native_service.experiment:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

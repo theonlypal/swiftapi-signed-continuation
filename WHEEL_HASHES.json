@@ -1,0 +1,13 @@
+{
+  "files": {
+    "swiftapi_python-1.4.0-py3-none-any.whl": "3afa5b4da3427dcf1c856c2314b5859fd0250f2a384e41f7f811dfd865ae7561",
+    "swiftapi_python-1.4.0.tar.gz": "dd954f6c26f9a63ea0d5e5a3a3e0da0805f376117f5fd3e471712d56a600ad8f",
+    "swiftapi_native_service-1.0.0-py3-none-any.whl": "5b67b3ac84461c6e31dfc2919dcc9cb16f0464c9a276a354fb07638e48cfb54c"
+  },
+  "sdk_wheel_sha256": "3afa5b4da3427dcf1c856c2314b5859fd0250f2a384e41f7f811dfd865ae7561",
+  "sdk_sdist_sha256": "dd954f6c26f9a63ea0d5e5a3a3e0da0805f376117f5fd3e471712d56a600ad8f",
+  "service_wheel_sha256": "5b67b3ac84461c6e31dfc2919dcc9cb16f0464c9a276a354fb07638e48cfb54c",
+  "service_version": "1.0.0",
+  "sdk_version": "1.4.0",
+  "service_source_sha256": "1fefa84d9974905643ea490c02a8ef5f3bb4b9839042c07069a128c00efbe083"
+}

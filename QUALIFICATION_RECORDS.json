@@ -1,0 +1,36 @@
+{
+  "registered_evidence": false,
+  "records": [
+    {
+      "kind": "FRESH_MODEL_EXECUTION_LOCAL_TEST_DOUBLE",
+      "execution_path": "COMMON_REGISTERED_LAUNCHER",
+      "gpu_type_id": "NVIDIA L4",
+      "data_center_id": "EU-RO-1",
+      "receipt_count": 2,
+      "sdk_verified_count": 2,
+      "full_verified_count": 2,
+      "within_run_non_eos_identity": true,
+      "warm_forward_seconds": 0.40462624514475465,
+      "archive_sha256": "0b4244f17a999f542535a00bc220b835ec8ad00b8855635df1a6014b58fc5b59",
+      "environment_archive_sha256": "6ff1e8996f24cbb87bfc4032e6f2077d872d8cfcdeb82ee884678ec1672663ee",
+      "service_source_sha256": "1fefa84d9974905643ea490c02a8ef5f3bb4b9839042c07069a128c00efbe083",
+      "service_wheel_sha256": "5b67b3ac84461c6e31dfc2919dcc9cb16f0464c9a276a354fb07638e48cfb54c"
+    },
+    {
+      "kind": "FRESH_MODEL_EXECUTION_LOCAL_TEST_DOUBLE",
+      "gpu_type_id": "NVIDIA RTX A5000",
+      "data_center_id": "CA-MTL-1",
+      "receipt_count": 2,
+      "sdk_verified_count": 2,
+      "full_verified_count": 2,
+      "within_run_non_eos_identity": true,
+      "service_source_sha256": "842309c72f2f9dd7978463eb2c866a7c91d557df1272b02153d5ada92c34b509",
+      "archive_sha256": "00760a62642763b5c4554803231a69aad4a4655080ccd03c966b9a1a341bcf54"
+    },
+    {
+      "kind": "RECORDED_LOGITS_REPLAY_LIVE_SWIFTAPI",
+      "service_source_sha256": "9115b795ea0be2946bfd0cd083f5624834d460cd661241d5657bb36ded7979df",
+      "archive_sha256": "dab05bfd466a93c748dc1a37dee7e22b6959102c70b3e6da38e82ea0c092708b"
+    }
+  ]
+}
